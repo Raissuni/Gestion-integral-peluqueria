@@ -17,7 +17,7 @@
                                 <h5 class="card-title text-primary">{{ $appointment->service->name }}</h5>
                                 <p class="card-text">
                                     <strong>Fecha:</strong> {{ \Carbon\Carbon::parse($appointment->date)->format('d/m/Y H:i') }}<br>
-                                    <strong>Estilista:</strong> {{ $appointment->stylist->name }}
+                                    <strong>Estilista:</strong> {{ $appointment->stylist->stylist_name }}
                                 </p>
                                 <div class="d-flex justify-content-between">
                                     

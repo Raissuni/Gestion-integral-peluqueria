@@ -21,7 +21,12 @@ class User extends Authenticatable
         'email',
         'password',
         'role',
+        'google_id',
+        'token',
+        'refresh_token',
     ];
+
+
 
     /**
      * The attributes that should be hidden for serialization.
@@ -29,8 +34,8 @@ class User extends Authenticatable
      * @var list<string>
      */
     protected $hidden = [
-        'password',
-        'remember_token',
+        /* 'password',
+         'remember_token',*/
     ];
 
     /**
@@ -52,5 +57,10 @@ class User extends Authenticatable
     public function getIsAdminAttribute(): bool
     {
         return $this->role === 'admin'; // Cambia "admin" si tienes otro valor en tu base de datos
+    }
+
+    public function appointments()
+    {
+        return $this->hasMany(Appointment::class, 'user_id');
     }
 }

@@ -1,0 +1,15 @@
+[90m= [39m[34;4mApp\Models\User[39;24m {#6235
+    [34mid[39m: [35m2[39m,
+    [34mname[39m: "[32mAiub Raissuni[39m",
+    [34memail[39m: "[32maiubraissuni@gmail.com[39m",
+    [34mgoogle_id[39m: "[32m104284049980362570261[39m",
+    [34mtoken[39m: "[32mya29.a0AZYkNZgCTpgfSt9nBil_y3gygaaIexsKOt7vnFvo_SGTzsalLLbhsmp-KF6BQTm0V_ArNb_CSEu_5DbLOMLnQCnBuqKCzHYSgszJEq9fTvcDx5SxNWhe7s0n4fQXChRzv2Y4bdTPRhTQjJI7xYcTu_cEnAjU72Ss7K-2__BZkgaCgYKAV0SARISFQHGX2Mip8e_qho8opTKjYF__9cA9A0177[39m",
+    [34mrefresh_token[39m: [36mnull[39m,
+    [34memail_verified_at[39m: [36mnull[39m,
+    [34mpassword[39m: "[32m$2y$12$qU9fE2lmZfLOG/419Hx.sOGcVh.MfAeu7A659/yDOObklNtZbI77m[39m",
+    [34mremember_token[39m: [36mnull[39m,
+    [34mcreated_at[39m: "[32m2025-02-13 10:28:44[39m",
+    [34mupdated_at[39m: "[32m2025-04-06 16:27:07[39m",
+    [34mrole[39m: "[32muser[39m",
+  }
+
